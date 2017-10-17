@@ -23,10 +23,10 @@ import java.util.Properties;
  */
 public class Launcher {
 
-    public static String url = "jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF8&useSSL=false";
-    public static String driverClassName = "com.mysql.jdbc.Driver";
-    public static String username = "root";
-    public static String password = "admin";
+    private static String url = "jdbc:mysql://127.0.0.1:3306/demo?useUnicode=true&characterEncoding=UTF8&useSSL=false";
+    private static String driverClassName = "com.mysql.jdbc.Driver";
+    private static String username = "root";
+    private static String password = "admin";
 
     public static String daoPackageName = "com.example.demo.dao";
     public static String modelPackageName = "com.example.demo.model";
